@@ -1,0 +1,42 @@
+Q. What is css?
+
+Ans:- i> CSS gives style to raw HTML
+ii> CSS stands for Cascading Style Sheets
+iii> CSS is used to give style to our web pages
+iv> CSS is used to make websites responsive 
+v> HTML is used to structure a website
+vi> CSS takes responsibility of design 
+vii> It makes our websites beautiful and modern looking
+
+
+Syntax for CSS
+
+Example:- p{color: blue}
+
+here "p" is the selector 
+color is the property
+and blue is the value 
+
+Selectors for class start with ".". Example ".hi"
+And for ID starts with "#". Example: "#hi"
+
+For multi-selecting
+
+Example: header,p.start{
+    background-color:red;
+    border-radius: 3px
+}
+
+Here "header, p.start" is the group of Selectors
+And "{
+    background-color:red;
+    border-radius: 3px
+}" is the Declaration Block
+
+
+The three ways to add CSS to the HTML are:-
+1. Inline CSS: CSS is added to the elements directly  using style attribute
+
+2. Internal CSS: CSS is kept inside the head tags in  <style> tags
+
+3. External CSS: CSS is kept separately inside a ".css" style sheet
