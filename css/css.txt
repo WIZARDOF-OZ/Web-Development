@@ -40,3 +40,20 @@ The three ways to add CSS to the HTML are:-
 2. Internal CSS: CSS is kept inside the head tags in  <style> tags
 
 3. External CSS: CSS is kept separately inside a ".css" style sheet
+
+Q.What is a CSS Selectors?
+
+Ans:CSS Selectors are used to find the elemenet whose property will be set.
+
+Selectors are used to target the html elements 
+
+Selectors make it easy for us to easily target single/multiple HTML elements in the Markup
+
+
+Types of CSS Selectors
+
+CSS Element Selector
+CSS Id Selector
+CSS Class selector
+
+The CSS grouping selector
