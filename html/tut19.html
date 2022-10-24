@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height , width , borders and background color</title>
+    <style>
+#firstPara{
+    background-color: rgb(55, 57, 200);
+    height: 50px;
+    width: 500px;
+    /* border-style: solid;
+    border-width: 6px;
+    border-color: rgb(250, 2, 163);
+    border-radius: 15px; */
+    border: 6px solid rgb(250, 2, 163) /*If we want to write the border in a single line then we can use this block of code.*/
+}
+
+#secondPara{
+    background-color: lime;
+    height: 50px;
+    width: 500px;
+    border-top: 4px solid violet;
+    border-bottom: 4px solid rgb(130, 139, 238);
+    border-right: 4px solid rgb(53, 184, 189);
+    border-left: 4px solid rgb(200, 13, 125);
+    border-top-left-radius: 4px ;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 56px;
+}
+
+#thirdPara{
+    height: 150px;
+    width: 500px;
+    background-image: url('https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75');
+    border: 3px solid  rgb(42, 58, 233);
+    background-repeat: no-repeat;/*repeat-x and repeat-y will make it repeat on x and y axis*/
+    /* background-position: center top; */
+    background-position: 14rem 45px;
+}
+    </style>
+</head>
+<body>
+    <h2>Here , we will know about height, width , borders and background</h2>
+    
+    <p id="firstPara">This is a paragraph</p>
+
+    <h2>Here , we will know about height, width , borders and background</h2>
+
+    <p id="secondPara">This is a second paragraph</p>
+
+    <p id="thirdPara">This is a third paragraph</p>
+
+</body>
+</html>
