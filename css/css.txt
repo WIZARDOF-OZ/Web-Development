@@ -57,3 +57,13 @@ CSS Id Selector
 CSS Class selector
 
 The CSS grouping selector
+
+The Universal Selector which start with "*"
+Like this: *{
+
+}
+
+The body selector which starts with "body"
+like this: body{
+
+}
