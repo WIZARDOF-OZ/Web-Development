@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Propety</title>
+    <style>
+*{
+    box-sizing: border-box; /*By doing border-box the element total width it stays as much as we gave it including margin and padding*/
+}
+header{
+                        /*
+                        Q. What is display block?
+                        Ans: Display block means it will the full block full width. here we can set the width and by doing margin we can center it.
+
+                        q. What is display inline?
+                        Ans: display inline means that it will take as much place it is required.
+                        */    
+    /* margin: auto; */
+    border: 2px solid red;
+    /* width: 29%; */
+}
+
+img{
+    margin: auto;
+    display: block;
+    width: 40px;
+    /* padding-top: 9px; */
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+.box{
+    margin: 4px 0px;
+    border: 3px solid rgb(63, 149, 186);
+    background-color: rgb(162, 106, 214);
+    padding: 23px;
+    display: inline-block;
+    width: 33%;
+
+}
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75" alt="image">
+        <h2>Welcome to my blog</h2>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quasi perferendis maxime corrupti quae esse natus eos alias ex sunt! Officiis, hic totam voluptatum eum necessitatibus beatae quam quo enim ut, modi sint eveniet iusto ad libero, nisi quaerat delectus vero perferendis nesciunt eius.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quasi perferendis maxime corrupti quae esse natus eos alias ex sunt! Officiis, hic totam voluptatum eum necessitatibus beatae quam quo enim ut, modi sint eveniet iusto ad libero, nisi quaerat delectus vero perferendis nesciunt eius.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quasi perferendis maxime corrupti quae esse natus eos alias ex sunt! Officiis, hic totam voluptatum eum necessitatibus beatae quam quo enim ut, modi sint eveniet iusto ad libero, nisi quaerat delectus vero perferendis nesciunt eius.</p>
+        </div>
+    </div>
+</body>
+</html>
