@@ -15,10 +15,32 @@
             display: flex;
             /* FLex box properties for flex container*/
             /* Default value of flex-direction is Row */
-            /* flex-direction: row; , Here Row is the by default flex direction*/
+            flex-direction: row;
+            /*, Here Row is the by default flex direction*/
             /* flex-direction: column; */
             /* flex-direction: row-reverse; , Here the items starts from right to left */
-            flex-direction: column-reverse;
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap; */
+            /**By deafult it is no-wrap**/
+            /* flex-wrap: wrap-reverse; */
+            /*It will reverse the wrap*/
+
+            /* flex-flow: row-reverse wrap; */
+            /*Syntax: <'flex-direction'> || <'flex-wrap'>*/
+            /*Its a shorthand for flex*/
+
+            /* justify-content will justify the content in horizontal direction */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+
+            /* align-items will justify the content in vertical direction */
+            /* align-items: center; */
+            /* align-items: flex-start; */
+            /*Its a by default value*/
+            /* align-items: flex-end; */
+            /* align-items: stretch; */
         }
 
         .item {
@@ -28,6 +50,31 @@
             border: 2px solid aqua;
             margin: 10px;
             padding: 3px;
+        }
+
+        #item-1 {
+            /* Flex properties for a flex item */
+            /* Higher the order, later it shows up in the container */
+            /* order: 2; */
+
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+        }
+
+        #item-2 {
+            /* flex-grow: 3; */
+            /* flex-shrink: 3; */
+            flex-basis: 160px;
+            /* when flex-direction is set to row flex-basis: will control width */
+            /* when flex-direction is set to column flex-basis: will control height */
+        }
+
+        #item-3 {
+            /* flex: 2 2 230px; */
+            /* Syntax: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
+            /* align-self: flex-start;
+            align-self: flex-end;
+            align-self: center; */
         }
 
         /* At 13:14 */
@@ -41,9 +88,9 @@
         <!-- Here all the items under the flex containers are now flex items-->
         <div class="item" id="item-2">Second Box</div>
         <div class="item" id="item-3">Third Box</div>
-        <div class="item" id="item-4">Fourth Box</div>
+        <!-- <div class="item" id="item-4">Fourth Box</div>
         <div class="item" id="item-5">Fifth Box</div>
-        <div class="item" id="item-6">Sixth Box</div>
+        <div class="item" id="item-6">Sixth Box</div> -->
     </div>
 </body>
 
